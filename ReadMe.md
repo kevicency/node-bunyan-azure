@@ -1,4 +1,4 @@
-# bunyan-azure
+# bunyan-azure [![Build Status](https://secure.travis-ci.org/kmees/node-bunyan-azure.png?branch=master)](https://travis-ci.org/kmees/node-bunyan-azure)
 > Bunyan stream for azure table storage
 
 ## Getting started
