@@ -4,7 +4,7 @@
   "description": "Bunyan stream for azure table storage",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers ls:LiveScript test.ls",
+    "test": "node ./node_modules/mocha/bin/mocha test",
     "prepublish": "node ./node_modules/LiveScript/bin/lsc -c *.ls"
   },
   "repository": "",
