@@ -1,0 +1,26 @@
+{
+  "name": "bunyan-azure",
+  "version": "0.1.0",
+  "description": "Bunyan stream for azure table storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers ls:LiveScript test.ls",
+    "prepublish": "node ./node_modules/LiveScript/bin/lsc -c *.ls"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "bunyan": "~0.22.1",
+    "azure": "~0.7.18",
+    "node-uuid": "~1.4.1",
+    "prelude-ls": "~1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "sinon-chai": "~2.4.0",
+    "sinon": "~1.7.3",
+    "chai": "~1.8.1",
+    "LiveScript": "~1.2.0"
+  }
+}
